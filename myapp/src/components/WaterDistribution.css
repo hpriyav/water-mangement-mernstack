@@ -1,0 +1,56 @@
+.water-distribution {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b2765;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .water-details {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .water-details h2 {
+    text-align: center;
+    color: #0b2765;
+  }
+  
+  .water-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .water-details li {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
